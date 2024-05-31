@@ -1,0 +1,148 @@
+<center><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ 
+<head>
+    <title>Leaders</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    <!---
+   
+    Beaux Rêves
+    a network/family page by ciralism
+   
+    //like my work? consider commissioning me for a custom theme
+    visit http://ciralism.tumblr.com/custom for more information, or email me at ciralism@gmail.com
+   
+    enjoy!
+   
+    ---->
+   
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   
+ 
+<script src="http://static.tumblr.com/6hsqxdt/QBym35odk/jquery.masonry.js"></script>
+ 
+<script>
+$(function(){
+var $container = $('.container');
+$container.imagesLoaded(function(){
+$container.masonry({
+itemSelector: '.member',
+});
+});
+$container.infinitescroll({
+itemSelector : ".member",
+navSelector : "div.pagination",
+nextSelector : ".pagination a#next",
+loadingImg : "",
+loadingText : "<em></em>",
+bufferPx : 10000,
+extraScrollPx: 12000,
+},
+// trigger Masonry as a callback
+function( newElements ) {
+  var $newElems = $( newElements ).css({ opacity: 0 });
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$newElems.animate({ opacity: 1 });
+$container.masonry( 'appended', $newElems, true );
+});
+}
+);
+});
+</script>
+ 
+ 
+ 
+<style type="text/css">
+/* BASICS */
+    body { background-image:url("https://40.media.tumblr.com/4b2e6e0a548758ab3c104a73eae9a25b/tumblr_nsr1pupppJ1ti84jeo3_r1_1280.png");background-size:cover;background-repeat:no-repeat;background-color:#fff;font-family:Roboto;color:#FFC2FF;font-size:30px;font-weight:300;}
+    a {color:#000;;text-decoration:none;border-bottom:1px solid #eee;-webkit-transition-duration:600ms;-o-transition-duration:600ms;-moz-transition-duration:600ms;-ms-transition-duration:600ms;}
+    a:hover, a:active {color:#FFC2FF;border-bottom-color:#94b1cc;}
+    b, em {font-weight:bold;color:#FFC2FF;}
+    h1 {padding-bottom:1px;margin:0;}
+   
+    #tumblr_controls {display:none;}
+ 
+    .credit {position:fixed;text-transform:uppercase;font-size:12px;font-weight:bold;right:5px;bottom:5px;letter-spacing:1px;}
+ 
+    section {
+        width:600px;
+        padding:20px;
+        margin:50px auto;
+    }
+    .links {font-size:12px;margin-left:-4px;color:#FFC2FF;} .links a {border:none;padding:0px 4px;color:#FFC2FF;} .links a:hover {color:#FFC2FF;}
+   
+    .description {margin-top:15px;font-weight:300;font-size:12px;line-height:140%;}
+        .description2 {margin-top:25px;font-weight:300;font-size:12px;line-height:140%;padding-top:10px;border-top:1px solid #f3f3f3;}
+ 
+   
+    ::selection {color:#fff;background-color:#94b1cc;}
+ 
+   
+    .member {
+        width:150px;
+        margin-top:15px;
+        border:none solid #f3f3f3;background-color:FFFF; margin-left:35px;
+    }
+    .icon {
+        width:150px;
+        /* uncomment for black and white
+        filter:grayscale(100%);-webkit-filter:grayscale(100%);*/
+    }
+   
+    .member a {
+        text-align:center;display:block;padding:5px 0px;border-bottom:none;font-family:Lato;color:#FFC2FF;text-transform:uppercase;font-weight:bold;font-size:16px;letter-spacing:2px;
+    }
+   
+    .member a:hover {
+        color:#94b1cc;
+    }
+   
+    .mdesc {display:block;font-size:12px;padding:10px;line-height:13px;text-align:center;}
+   
+    .container {display:block;width:640px;margin-left:-35px;}
+   
+</style>
+</head>
+<body>
+<section>
+    <article class="header">
+        <h1>Leaders</h1> <!--title-->
+        <div class="links"><!--three custom links, feel free to add more-->
+            <a href="/leaders">leaders</a> /
+            <a href="/scholars">scholars</a> /
+            <a href="/crafters">crafters</a> /
+            <a href="/gatherers">gatherers</a> /
+            <a href="/warriors">warriors</a> /
+            <a href="/other">other members</a> /
+            <a href="/Grotto">the Grotto</a> /
+            <a href="/">home</a>
+        </div>
+        <div class="description"><!---top description---></div>
+    </article>
+    
+    <div class="container">
+    
+    <!---member--->
+<article class="member">
+     <a href="http://flightrising.com/main.php?p=lair&tab=dragon&id=60133&did=2999565">VALENCIA</a>
+        <img class="icon" src="http://flightrising.com/rendern/350/29996/2999565_350.png?mtime=VcjjRgACEIo">
+        <div class="mdesc">The eccentric matriarch of Tycho's Peak, dedicated to pursuing knowledge and honoring the Glorious Arcanist. She has a very unpredictable nature and an extreme dedication to her deity.</div>
+    </article>
+    <!---end member--->
+    
+    <!---member--->
+    <article class="member">
+        <a href="http://flightrising.com/main.php?p=lair&tab=dragon&id=60133&did=2999566">BEO</a>
+       <img class="icon" src="http://flightrising.com/rendern/350/29996/2999566_350.png?mtime=Vclm9gAC6Jk" />
+        <div class="mdesc">Beo is Valencia's mate, and the patriarch of Tycho's Peak. His gentle, protective nature provides stability and counters his mate's unconventional values.</div>
+    </article>
+    <!---end member--->
+  </div>
+ 
+  <div class="description2">Click the names to read more about each dragon!<!---second description---></div>
+</section>
+<a href="http://ciralism.tumblr.com" class="credit">ciralism</a>
+</body></html>
