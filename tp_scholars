@@ -133,15 +133,8 @@ $container.masonry( 'appended', $newElems, true );
     </article>
     <!---end member--->
     
-    <!---member--->
-    <article class="member">
-        <a href="http://flightrising.com/main.php?p=lair&id=60133&tab=dragon&did=3346844">ILARI</a>
-       <img class="icon" src="http://flightrising.com/rendern/350/33469/3346844_350.png?mtime=VYmUsQACrn8" />
-        <div class="mdesc">Once outcast from his Light Clan home due to his dyslexia, Ilari has earned an important role in Tycho's Peak as the Clan's tutor. He works with both hatchlings and incoming dragons who are not scholars themselves.</div>
-    </article>
-    <!---end member--->
     
-        <!---member--->
+    <!---member--->
     <article class="member">
         <a href="http://flightrising.com/main.php?p=lair&tab=dragon&id=60133&did=3638350">TLALLI</a>
        <img class="icon" src="http://flightrising.com/rendern/350/36384/3638350_350.png?mtime=VZW9ZAADUM0" />
@@ -149,7 +142,7 @@ $container.masonry( 'appended', $newElems, true );
     </article>
     <!---end member--->
     
-              <!---member--->
+    <!---member--->
     <article class="member">
         <a href="http://flightrising.com/main.php?p=lair&tab=dragon&id=60133&did=5926600">ADAMINE</a>
        <img class="icon" src="http://flightrising.com/rendern/350/59267/5926600_350.png?mtime=VZf3NwADJJY" />
@@ -164,7 +157,6 @@ $container.masonry( 'appended', $newElems, true );
         <div class="mdesc">A former coroner who published studies on the effects of Arcane magic on the body, Mortem hesitantly accepted the position of medic at Tycho's Peak with the help of his companion, Adamine.</div>
     </article>
     <!---end member--->
-    
         
     <!---member--->
     <article class="member">
