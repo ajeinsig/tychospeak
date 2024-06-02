@@ -57,52 +57,126 @@ $container.masonry( 'appended', $newElems, true );
  
 <style type="text/css">
 /* BASICS */
-    body { background-image:url("https://40.media.tumblr.com/4b2e6e0a548758ab3c104a73eae9a25b/tumblr_nsr1pupppJ1ti84jeo3_r1_1280.png");background-size:cover;background-repeat:no-repeat;background-color:#fff;font-family:Roboto;color:#FFC2FF;font-size:30px;font-weight:300;}
-    a {color:#000;;text-decoration:none;border-bottom:1px solid #eee;-webkit-transition-duration:600ms;-o-transition-duration:600ms;-moz-transition-duration:600ms;-ms-transition-duration:600ms;}
-    a:hover, a:active {color:#FFC2FF;border-bottom-color:#94b1cc;}
-    b, em {font-weight:bold;color:#FFC2FF;}
-    h1 {padding-bottom:1px;margin:0;}
+    body {background-image:url("https://40.media.tumblr.com/4b2e6e0a548758ab3c104a73eae9a25b/tumblr_nsr1pupppJ1ti84jeo3_r1_1280.png");
+          background-size:cover;
+          background-repeat:no-repeat;
+          background-color:#fff;
+          font-family:Roboto;
+          color:#FFC2FF;
+          font-size:36px;
+          font-weight:300;
+         }
+    a {color:#000;
+       text-decoration:none;
+       border-bottom:1px solid #eee;
+       -webkit-transition-duration:600ms;
+       -o-transition-duration:600ms;
+       -moz-transition-duration:600ms;
+       -ms-transition-duration:600ms;
+         }
+    a:hover, a:active {
+     color:#FFC2FF;
+     border-bottom-color:#94b1cc;
+         }
+ 
+    b, em {
+     font-weight:bold;color:#FFC2FF;
+         }
+ 
+    h1 {padding-bottom:1px;
+        margin:0;
+         }
    
     #tumblr_controls {display:none;}
  
     .credit {position:fixed;text-transform:uppercase;font-size:12px;font-weight:bold;right:5px;bottom:5px;letter-spacing:1px;}
  
     section {
-        width:600px;
-        padding:20px;
-        margin:50px auto;
-    }
-    .links {font-size:12px;margin-left:-4px;color:#FFC2FF;} .links a {border:none;padding:0px 4px;color:#FFC2FF;} .links a:hover {color:#FFC2FF;}
-   
-    .description {margin-top:15px;font-weight:300;font-size:12px;line-height:140%;}
-        .description2 {margin-top:25px;font-weight:300;font-size:12px;line-height:140%;padding-top:10px;border-top:1px solid #f3f3f3;}
+              width:600px;
+              padding:20px;
+              margin:50px auto;
+         }
  
+    .links {
+              font-size:16px;
+              margin-left:-4px;
+              color:#FFC2FF;
+         } 
+ 
+    .links a {
+              border:none;
+              padding:0px 4px;
+              color:#FFC2FF;
+         } 
+     .links a:hover {
+              color:#FFC2FF;
+         }
+   
    
     ::selection {color:#fff;background-color:#94b1cc;}
  
    
     .member {
-        width:150px;
+        width:350px;
         margin-top:15px;
-        border:none solid #f3f3f3;background-color:FFFF; margin-left:35px;
+        /*border:none; */
+        background-color:FFFF; 
+        margin-left:35px;
+        display: inline-block;
+        border: 1px solid red;
+        padding: 1rem 1rem;
+        vertical-align: middle;
+        float: left
     }
     .icon {
-        width:150px;
+        width:350px;
+        align:center;
         /* uncomment for black and white
         filter:grayscale(100%);-webkit-filter:grayscale(100%);*/
     }
    
     .member a {
-        text-align:center;display:block;padding:5px 0px;border-bottom:none;font-family:Lato;color:#FFC2FF;text-transform:uppercase;font-weight:bold;font-size:16px;letter-spacing:2px;
+        text-align:center;
+        display:block;
+        padding:5px 0px;
+        border-bottom:none;
+        font-family:Lato;
+        color:#FFC2FF;
+        text-transform:uppercase;
+        font-weight:bold;
+        font-size:20px;
+        letter-spacing:2px;
     }
    
     .member a:hover {
         color:#94b1cc;
     }
    
-    .mdesc {display:block;font-size:12px;padding:10px;line-height:13px;text-align:center;}
+    .mdesc {
+            display:block;
+            font-size:14px;
+            padding:10px;
+            line-height:13px;
+            text-align:center;
+     }
    
-    .container {display:block;width:640px;margin-left:-35px;}
+    .container {display:block;width:640px;margin-left:-35px;
+     }
+
+     .description {
+                   margin-top:15px;
+                   font-weight:300;
+                   font-size:12px;
+                   line-height:140%;
+     }
+        .description2 {margin-top:25px;
+                       font-weight:300;
+                       font-size:12px;
+                       line-height:140%;
+                       padding-top:10px;
+                       border-top:1px solid #f3f3f3;
+     }
+ 
    
 </style>
 </head>
